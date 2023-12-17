@@ -32,5 +32,5 @@ dir [-r | -v] [dir_name]
 The `date` command returns the last modified date and time of a particular file with the following syntax:
 
 ```sh
-date [-d | -R] [file_name]
+date [-d | -r] [file_name]
 ```
