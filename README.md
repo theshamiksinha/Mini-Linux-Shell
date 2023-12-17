@@ -8,14 +8,6 @@ MyShell is a custom Unix shell designed to provide a set of three commands: `wor
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [`word` Command](#word-command)
-  - [`dir` Command](#dir-command)
-  - [`date` Command](#date-command)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -25,3 +17,20 @@ The `word` command is a built-in command that reads the number of words in a tex
 
 ```sh
 word [-n | -d] [file_name]
+```
+
+### 1. `dir` Command
+
+The `dir` command creates a directory, changes the path to that directory, and has the following syntax:
+
+```sh
+dir [-r | -v] [dir_name]
+```
+
+### 1. `date` Command
+
+The `date` command returns the last modified date and time of a particular file with the following syntax:
+
+```sh
+date [-d | -R] [file_name]
+```
